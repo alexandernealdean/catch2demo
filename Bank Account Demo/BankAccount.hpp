@@ -25,13 +25,8 @@ class Bank_Account{
       }
    
       string withdraw(float a){//Withdraws money from bank account instance
-         //if(balance >= a){
             balance -= a;
             return to_string(a) + " will be withdrawn.";
-         //}
-         //else{
-            //return "Insufficient balance.";
-         //}
       }
 
       string display(){//Displays bank account balance
