@@ -10,7 +10,7 @@ TEST_CASE("Testing Deposit") {//Testing the deposit
 
 TEST_CASE("Testing Withdrawal") {//Testing the withdrawal
     Bank_Account s = Bank_Account();
-    REQUIRE(s.withdraw(50.000000) ==  "Insufficient balance.");
+    REQUIRE(s.withdraw(50.000000) == "50.000000 will be withdrawn.");
 }
 
 TEST_CASE("Testing Display") {//Testing the display
